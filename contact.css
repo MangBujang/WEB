@@ -1,0 +1,150 @@
+body{
+    background-image: url(dr15.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display:unset;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container1 {
+
+    position: relative;
+    width: fit-content;
+    top: -25px;
+}
+
+.judul-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan transparansi */
+    border-radius: 15px; /* Sudut melengkung */
+    padding: 20px; /* Ruang di dalam box */
+    margin: 20px auto; /* Margin atas dan bawah, auto untuk pusat */
+    width: 80%; /* Lebar box */
+    max-width: 800px; /* Lebar maksimum */
+    position: absolute;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.191);
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    border-radius: 50%;
+    position: relative;
+}   
+
+h2 {
+    font-size: 50px;
+    margin-top: -90px;
+    margin-left: 100px;
+    /* padding: 30px; */
+    position: absolute;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  
+}
+
+.box-container{
+    display: flex;
+    background-color: white;
+    position: relative;
+    /* margin-top: -300px; */
+    margin-left: 95vmax;
+}
+.box {
+    position: absolute;
+}
+.box1{
+    width: 20px;
+    height: 200px;
+    background-color: none;
+    border: transparent;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+}
+.box1 i{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    size: 100px;
+    padding-left: 20px;
+}
+.box :hover{
+    background-color: transparent;
+    transition: 1s ease-in-out;
+    transition-delay: 0.5s;
+    content: Home;
+}
+
+a{
+    color: black;
+}
+
+.contact-container {
+    position: relative;
+    width: max-content;
+   
+}
+
+.contact-box {
+    width: max-content;
+    size: 70px;
+    margin-inline-start: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    font-size: 50px;
+}
+
+h4 {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.social-media-container {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    margin-inline-start: 700px;
+    /* padding: 100px; */
+    margin-top: 0px;
+}
+
+.social-media {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+.social-media a {
+    font-size: 80px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.social-media a:hover {
+    color: white;
+    animation-delay: 2s;
+} 
+
+hr {
+    margin-top: 10px;
+}

@@ -1,0 +1,127 @@
+body{
+    background-image: url(dr15.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display:unset;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.container1 {
+
+    position: relative;
+    width: fit-content;
+    top: -25px;
+}
+
+.judul-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan transparansi */
+    border-radius: 15px; /* Sudut melengkung */
+    padding: 20px; /* Ruang di dalam box */
+    margin: 20px auto; /* Margin atas dan bawah, auto untuk pusat */
+    width: 80%; /* Lebar box */
+    max-width: 800px; /* Lebar maksimum */
+    position: absolute;
+}
+.container2 {
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+ul{
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    margin-left: 200px;
+}
+li{
+    width: 400px;
+    font-size: 15px;
+    margin: 15px 0;
+    color: white;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.191);
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    border-radius: 50%;
+    position: relative;
+}   
+
+h2 {
+    font-size: 50px;
+    margin-top: -90px;
+    margin-left: 100px;
+    /* padding: 30px; */
+    position: absolute;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  
+}
+
+  
+h4 {
+    margin-left: 200px;
+}
+
+p {
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.box-container{
+    display: flex;
+    background-color: white;
+    position: relative;
+    /* margin-top: -300px; */
+    margin-left: 95vmax;
+}
+.box {
+    position: absolute;
+}
+.box1{
+    width: 20px;
+    height: 200px;
+    background-color: none;
+    border: transparent;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+}
+.box1 i{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    size: 100px;
+    padding-left: 20px;
+}
+.box :hover{
+    background-color: transparent;
+    transition: 1s ease-in-out;
+    transition-delay: 0.5s;
+    content: Home;
+}
+
+a{
+    color: black;
+}
+
+  
